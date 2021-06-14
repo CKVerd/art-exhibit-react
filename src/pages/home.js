@@ -1,5 +1,6 @@
 import Art from "../components/art";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import { useState, useEffect } from "react";
 
 function Home() {
@@ -53,6 +54,7 @@ function Home() {
           );
         })}
       </ul>
+      <Footer />
     </div>
   );
 }
