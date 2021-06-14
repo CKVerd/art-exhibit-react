@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+:root {
+  --Color-Primary: #fafafa;
+  --Color-Secondary: #f3f3f3;
+  --Color-Tertiary: #ececec;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  box-sizing: border-box;
+}
+
+.header-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.spacer {
+  width: 100%;
+  height: 15vh;
+}
+
+.header-div {
+  background-color: var(--Color-Primary);
+  width: 100%;
+  height: 6vh;
+  display: grid;
+  place-items: center;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+}
+
+.art-section {
+  width: 100%;
+  max-height: 60em;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 10px 12px 44px 0px rgba(0, 0, 0, 0.2);
+}
+.art-container {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.artist-info {
+  max-width: 30em;
+  max-height: 30em;
+  padding: 1%;
+  position: absolute;
+  bottom: 20px;
+  z-index: 1000;
+  right: 50px;
+}
+
+.art-picture {
+  max-width: 60em;
+  max-height: 60em;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  padding: 2%;
+}
+
+h2 {
+  margin-left: 2%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-image {
+  max-height: 50em;
+  max-width: 50em;
+  object-fit: contain;
+  overflow: hidden;
+  display: block;
+  z-index: 400;
+  object-position: center;
+}
+
+.loading {
+  margin-left: 30%;
+}
