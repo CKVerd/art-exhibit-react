@@ -48,7 +48,7 @@ function Home() {
             <Art
               key={allUnsplashData.id}
               author={allUnsplashData.user.name}
-              image={allUnsplashData.urls.full}
+              image={allUnsplashData.urls.regular}
             />
           );
         })}
