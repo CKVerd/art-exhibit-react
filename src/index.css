@@ -96,3 +96,61 @@ h2 {
 .loading {
   margin-left: 30%;
 }
+
+@media screen and (max-width: 1000px) {
+  .main-image {
+    max-height: 30em;
+    max-width: 30em;
+  }
+
+  .art-picture {
+    max-height: 40em;
+    max-width: 40em;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-image {
+    max-height: 20em;
+    max-width: 20em;
+  }
+
+  .art-picture {
+    max-height: 30em;
+    max-width: 30em;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .artist-info {
+    bottom: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-image {
+    max-height: 15em;
+    max-width: 15em;
+  }
+
+  .art-picture {
+    max-height: 25em;
+    max-width: 25em;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  .artist-info {
+    bottom: 0;
+    right: 0;
+  }
+}
